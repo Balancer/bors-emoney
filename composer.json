@@ -2,19 +2,36 @@
 	"name": "bors/emoney",
 	"description": "Electronic pay system plugins for BORS Framework",
 	"license": "GPLv3",
+
 	"authors": [
 		{
 			"name": "Balancer",
 			"email": "balancer@balancer.ru"
 		}
 	],
-	"require": {},
+
+	"require": {
+		"balancer/b2f-composer": "*"
+	},
+
 	"require-dev": {
 		"phpunit/phpunit": "*"
 	},
+
 	"autoload": {
 		"psr-4": {
-			"Bors\\Emoney\\": "src"
+			"B2\\Emoney\\": "src"
+		}
+	},
+
+	"extra": {
+		"bors-calls": {
+			"B2\\Plugins::register": {
+				"Emoney": [
+					"B2\\Emoney\\Yandex",
+					"B2\\Emoney\\Paypal",
+				]
+			}
 		}
 	}
 }

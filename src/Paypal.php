@@ -1,6 +1,6 @@
 <?php
 
-namespace Bors\Emoney;
+namespace B2\Emoney;
 
 class Paypal
 {
