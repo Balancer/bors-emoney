@@ -1,0 +1,20 @@
+{
+	"name": "bors/emoney",
+	"description": "Electronic pay system plugins for BORS Framework",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Balancer",
+			"email": "balancer@balancer.ru"
+		}
+	],
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bors\\Emoney\\": "src"
+		}
+	}
+}
