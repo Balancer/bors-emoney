@@ -2,7 +2,7 @@
 
 namespace B2\Emoney;
 
-class Yandex
+class Yandex extends \bors_object
 {
 	var $title = 'Яндекс.Деньги';
 	var $deposit_fees = '0';

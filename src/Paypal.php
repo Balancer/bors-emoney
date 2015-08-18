@@ -2,7 +2,7 @@
 
 namespace B2\Emoney;
 
-class Paypal
+class Paypal extends \bors_object
 {
 	var $title = 'PayPal';
 	var $deposit_fees = '0';
