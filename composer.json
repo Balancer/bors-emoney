@@ -11,8 +11,7 @@
 	],
 
 	"require": {
-		"balancer/b2-composer-plugin": "*",
-		"balancer/b2f-composer": "*"
+		"bors/composer-plugin": "*"
 	},
 
 	"require-dev": {
